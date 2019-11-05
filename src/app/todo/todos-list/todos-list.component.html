@@ -1,0 +1,12 @@
+<ul class="todo-list">
+    <!-- These are here just to show the structure of the list items -->
+    <app-todos-item *ngFor="let todo of todos | filterTodo: filtro" [todo]="todo"></app-todos-item>
+    <!-- <li>
+        <div class="view">
+            <input class="toggle" type="checkbox">
+            <label>Buy a unicorn</label>
+            <button class="destroy"></button>
+        </div>
+        <input class="edit" value="Rule the web">
+    </li> -->
+</ul>
